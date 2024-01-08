@@ -1,0 +1,21 @@
+{
+  "name": "shumax/market-api-products-register",
+  "description": "Market api products management",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Max Castro",
+      "email": "maxcastro.mv@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "firebase/php-jwt": "dev-main"
+  }
+}
